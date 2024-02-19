@@ -83,6 +83,20 @@ p, a {
     font-size: 3rem;
 }
 
+/* Global styling for index.html */
+
+html {
+    color: rgb(225, 239, 230);
+}
+
+a {
+    color: rgb(225, 239, 230);
+}
+
+h2 {
+    font-size: 5rem;
+}
+
 /* Center hrml element */
 
 html {
@@ -97,11 +111,9 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
 }
 
 header a {
-    color: white;
     text-align: center;
     font-size: 2.5rem;
 }
@@ -154,6 +166,12 @@ header nav div.social {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    padding: 40px 0 0 0;
+}
+
+.gallery img {
+    width: 24%;
+    margin: 1.5%;
 }
 
 /* about us section */
@@ -237,6 +255,7 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: rgb(0, 4, 17);
 }
 
 /* mobile media query */
