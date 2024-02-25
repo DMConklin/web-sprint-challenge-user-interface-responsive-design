@@ -86,6 +86,26 @@ p, a {
     font-size: 3rem;
 }
 
+/* Global styling for index.html */
+
+html {
+    color: rgb(225, 239, 230);
+}
+
+a {
+    color: rgb(225, 239, 230);
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+/* Center html element */
+
+html {
+    margin: 0 auto;
+}
+
 /* header section */
 header {
     width: 100%;
@@ -94,6 +114,41 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+header a {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+header h1 {
+    font-size: 6rem;
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;;
+    background-color: rgb(0, 4, 17, .8);
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header nav div.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav div.social {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    font-size: 3.5rem;
 }
 
 /* spacer */
@@ -114,10 +169,42 @@ header {
     width: 100%;
     height: auto;
     background-image: url('../img/staff-bartender.jpg');
-    background-color: rgb(0, 4, 17);
+    background-color: rgb(0, 4, 17, .8);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.menu > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: inherit;
+}
+
+.menu h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.menu .menu-section {
+    width: 50%;
+    padding: 5% 10%;
+}
+
+.menu .menu-section .menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5%;;
+}
+
+.menu .menu-section .menu-item p {
+    width: 100%
+}
+
+.menu .menu-section .menu-item p:nth-child(2 of p) {
+    font-style: italic;
 }
 
 /* footer section */
@@ -126,6 +213,52 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: rgb(0, 4, 17);
+    border-top: solid thin gray;
+}
+
+footer > div {
+    display: flex;
+}
+
+footer > div form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    padding: 0 1%;
+}
+
+footer > div form > span {
+    display: flex;
+}
+
+footer input,
+footer button {
+    appearance: none;
+    border: 0;
+    font-size: 2.5rem;
+}
+
+footer input {
+    width: 70%;
+}
+
+footer button {
+    flex-grow: 1;
+}
+
+footer > div > nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+p.copyright {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 1.5rem;
+    margin-right: 5%;
 }
 
 /* mobile media query */

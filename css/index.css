@@ -97,7 +97,7 @@ h2 {
     font-size: 5rem;
 }
 
-/* Center hrml element */
+/* Center html element */
 
 html {
     margin: 0 auto;
@@ -380,6 +380,7 @@ p.copyright {
         font-size: 2rem;
         display: flex;
         flex-direction: column;
+        border-top: solid thin gray;
     }
 
     footer > div { 
