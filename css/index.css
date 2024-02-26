@@ -118,7 +118,7 @@ header a {
     font-size: 2.5rem;
 }
 
-header h1 {
+.header-title {
     font-size: 6rem;
 }
 
@@ -256,6 +256,7 @@ footer {
     padding-top: 2.5vh;
     font-size: 3rem;
     background-color: rgb(0, 4, 17);
+    border-top: solid thin gray;
 }
 
 footer > div {
@@ -308,7 +309,7 @@ p.copyright {
         padding: 5% 15%;
     }
 
-    header h1 {
+    .header-title {
         font-size: 4rem;
     }
 
